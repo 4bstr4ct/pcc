@@ -93,6 +93,17 @@ pcc -p speedx-s5 --threads 300 --timeout 3
 - [aiohttp](https://docs.aiohttp.org/) - Async HTTP client.
 - [aiohttp-socks](https://github.com/n0ppo/aiohttp-socks) - SOCKS proxy connector.
 
+## 🤝 Credits
+
+This project is a complete CLI refactor and modernization of the original logic found in [High-Load-Proxy-Checker](https://github.com/Magerko/High-Load-Proxy-Checker) by [Magerko](https://github.com/Magerko).
+
+**Major changes in this version:**
+
+- **Architecture**: Completely removed the PyQt6 GUI in favor of a clean, UNIX-style CLI.
+- **Typing**: Added strict type hints and modern Python 3.10+ syntax (fully compliant with Pyright/Strict).
+- **UX**: Integrated `Rich` for professional terminal output and color-coded pings.
+- **Presets**: Added built-in lists for instant access to common proxy providers.
+
 ## ⚖️ License
 
 Distributed under the MIT License. See `LICENSE` for more information.
