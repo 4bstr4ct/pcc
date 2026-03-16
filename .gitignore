@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+*.exe
+good_proxies.txt
+pyrightconfig.json
